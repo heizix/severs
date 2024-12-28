@@ -1,0 +1,113 @@
+2024-12-28 01:07:35.140 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2024-12-28 01:07:35.184 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2024-12-28 01:07:47.205 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2024-12-28 01:07:47.233 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2024-12-28 01:09:40.289 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2024-12-28 01:09:40.305 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2024-12-28 01:10:40.608 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2024-12-28 01:10:40.621 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2024-12-28 01:12:26.744 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2024-12-28 01:12:26.756 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2024-12-28 01:14:15.781 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2024-12-28 01:14:15.784 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2024-12-28 01:15:58.083 | INFO     | __main__:upload_file:93 - File uploaded: uploads\app-debug.apk by user: anonymous
+2024-12-28 01:15:58.900 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2024-12-28 01:15:58.905 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2024-12-28 01:16:11.240 | INFO     | __main__:upload_file:93 - File uploaded: uploads\io.dcloud.application.DCloudApplication.apk by user: heizixiao
+2024-12-28 01:16:11.252 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2024-12-28 01:16:11.255 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2024-12-28 01:16:11.263 | INFO     | __main__:upload_file:113 - Analysis result saved to history for user: heizixiao
+2024-12-28 01:17:29.629 | INFO     | __main__:upload_file:93 - File uploaded: uploads\io.dcloud.application.DCloudApplication.apk by user: heizixiao
+2024-12-28 01:17:30.060 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2024-12-28 01:17:30.069 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2024-12-28 01:17:30.073 | INFO     | __main__:upload_file:106 - Returning analysis result: {'apk_file': 'io.dcloud.application.DCloudApplication.apk', 'prediction': 1}
+2024-12-28 01:17:30.074 | INFO     | __main__:upload_file:123 - Analysis result saved to history for user: heizixiao
+2024-12-28 01:22:23.510 | INFO     | __main__:upload_file:93 - File uploaded: uploads\app-debug.apk by user: heizixiao
+2024-12-28 01:22:24.349 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2024-12-28 01:22:24.361 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2024-12-28 01:22:24.373 | INFO     | __main__:upload_file:110 - Returning analysis result: {'apk_file': 'app-debug.apk', 'prediction': 0}
+2024-12-28 01:22:24.374 | INFO     | __main__:upload_file:127 - Analysis result saved to history for user: heizixiao
+2024-12-28 01:26:17.275 | ERROR    | __main__:register:42 - Registration failed for username: 123456
+2024-12-28 01:26:20.816 | ERROR    | __main__:register:42 - Registration failed for username: 123456
+2024-12-28 01:27:14.953 | ERROR    | __main__:register:42 - Registration failed for username: 123456
+2024-12-28 01:32:18.203 | INFO     | __main__:register:44 - User registered successfully: 123456
+2024-12-28 01:51:13.821 | INFO     | __main__:register:61 - User registered successfully: 1234567
+2024-12-28 01:53:38.168 | INFO     | __main__:register:62 - User registered successfully: 123456
+2024-12-28 01:56:05.767 | WARNING  | __main__:login:82 - Login failed for user: user123
+2024-12-28 01:56:18.285 | WARNING  | __main__:login:82 - Login failed for user: user123
+2024-12-28 12:31:28.775 | WARNING  | __main__:login:82 - Login failed for user: user123
+2024-12-28 12:32:19.229 | INFO     | __main__:register:62 - User registered successfully: 123456789
+2024-12-28 12:32:53.899 | WARNING  | __main__:login:82 - Login failed for user: user123
+2024-12-28 12:32:59.058 | WARNING  | __main__:login:82 - Login failed for user: user123
+2024-12-28 16:36:27.053 | WARNING  | __main__:login:85 - Login failed for user: user123
+2024-12-28 16:36:51.084 | WARNING  | __main__:login:85 - Login failed for user: user123
+2024-12-28 16:46:11.095 | INFO     | __main__:login:82 - User logged in successfully: 123456
+2024-12-28 17:02:06.576 | INFO     | __main__:login:82 - User logged in successfully: 123456
+2024-12-28 17:14:05.801 | INFO     | __main__:login:82 - User logged in successfully: 123456
+2024-12-28 18:25:41.497 | INFO     | __main__:login:87 - User logged in successfully: 123456
+2024-12-28 19:01:53.270 | WARNING  | __main__:login:93 - Login failed for user: 123456
+2024-12-28 19:02:37.854 | INFO     | __main__:register:69 - User registered successfully: 123456
+2024-12-28 19:02:50.079 | INFO     | __main__:login:90 - User logged in successfully: 123456
+2024-12-28 19:10:03.170 | INFO     | __main__:upload_file:154 - File uploaded: server/uploads\app-debug.apk by user: anonymous
+2024-12-28 19:10:04.925 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2024-12-28 19:10:04.938 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2024-12-28 19:10:04.949 | INFO     | __main__:upload_file:166 - Returning analysis result: {'apk_file': 'app-debug.apk', 'prediction': 0}
+2024-12-28 19:10:12.278 | INFO     | __main__:upload_file:154 - File uploaded: server/uploads\app-debug.apk by user: 123456
+2024-12-28 19:10:12.289 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2024-12-28 19:10:12.291 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2024-12-28 19:10:12.298 | INFO     | __main__:upload_file:166 - Returning analysis result: {'apk_file': 'app-debug.apk', 'prediction': 0}
+2024-12-28 19:11:05.774 | ERROR    | __main__:upload_avatar:100 - No file or username provided for avatar upload
+2024-12-28 19:12:44.257 | INFO     | __main__:update_nickname:137 - Nickname updated for user: 123456
+2024-12-28 19:28:13.702 | INFO     | __main__:upload_avatar:117 - Avatar uploaded for user: 123456
+2024-12-28 19:33:26.320 | INFO     | __main__:register:69 - User registered successfully: 123456789
+2024-12-28 20:12:06.266 | INFO     | __main__:login:90 - User logged in successfully: 123456
+2024-12-28 20:14:09.300 | INFO     | __main__:upload_avatar:117 - Avatar uploaded for user: 123456
+2024-12-28 20:14:18.282 | INFO     | __main__:update_nickname:137 - Nickname updated for user: 123456
+2024-12-28 20:14:32.603 | INFO     | __main__:login:90 - User logged in successfully: 123456
+2024-12-28 20:15:26.674 | INFO     | __main__:login:90 - User logged in successfully: 123456
+2024-12-28 20:18:49.673 | INFO     | __main__:login:90 - User logged in successfully: 123456
+2024-12-28 20:21:50.380 | INFO     | __main__:login:96 - Login successful for user: 123456, response: {'status': 'success', 'nickname': 'hei', 'avatar': 'server/uploads/avatars/123456.jpg'}
+2024-12-28 20:22:49.114 | INFO     | __main__:login:96 - Login successful for user: 123456, response: {'status': 'success', 'nickname': 'hei', 'avatar': 'server/uploads/avatars/123456.jpg'}
+2024-12-28 20:24:52.006 | INFO     | __main__:login:95 - User logged in successfully: 123456, Nickname: hei, Avatar: server/uploads/avatars/123456.jpg
+2024-12-28 20:25:34.256 | INFO     | __main__:login:95 - User logged in successfully: 123456, Nickname: hei, Avatar: server/uploads/avatars/123456.jpg
+2024-12-28 20:32:03.538 | INFO     | __main__:login:95 - User logged in successfully: 123456, Nickname: hei, Avatar: server/uploads/avatars/123456.jpg
+2024-12-28 20:43:39.531 | INFO     | __main__:login:95 - User logged in successfully: 123456, Nickname: hei, Avatar: server/uploads/avatars/123456.jpg
+2024-12-28 20:50:45.579 | INFO     | __main__:login:95 - User logged in successfully: 123456, Nickname: hei, Avatar: server/uploads/avatars/123456.jpg
+2024-12-28 21:08:18.901 | INFO     | __main__:login:95 - User logged in successfully: 123456, Nickname: hei, Avatar: server/uploads/avatars/123456.jpg
+2024-12-28 21:08:34.284 | INFO     | __main__:upload_avatar:126 - Avatar uploaded for user: 123456, Saved at: server/uploads/avatars/123456.jpg
+2024-12-28 21:08:40.739 | INFO     | __main__:upload_avatar:126 - Avatar uploaded for user: 123456, Saved at: server/uploads/avatars/123456.jpg
+2024-12-28 21:09:32.629 | INFO     | __main__:login:95 - User logged in successfully: 123456, Nickname: hei, Avatar: server/uploads/avatars/123456.jpg
+2024-12-28 21:09:37.376 | INFO     | __main__:upload_avatar:126 - Avatar uploaded for user: 123456, Saved at: server/uploads/avatars/123456.jpg
+2024-12-28 21:10:31.890 | INFO     | __main__:login:95 - User logged in successfully: 123456, Nickname: hei, Avatar: server/uploads/avatars/123456.jpg
+2024-12-28 21:10:38.052 | INFO     | __main__:upload_avatar:126 - Avatar uploaded for user: 123456, Saved at: server/uploads/avatars/123456.jpg
+2024-12-28 21:11:15.206 | INFO     | __main__:login:95 - User logged in successfully: 123456, Nickname: hei, Avatar: server/uploads/avatars/123456.jpg
+2024-12-28 21:11:21.433 | INFO     | __main__:upload_avatar:126 - Avatar uploaded for user: 123456, Saved at: server/uploads/avatars/123456.jpg
+2024-12-28 21:18:23.334 | INFO     | __main__:login:95 - User logged in successfully: 123456, Nickname: hei, Avatar: server/uploads/avatars/123456.jpg
+2024-12-28 21:31:05.720 | INFO     | __main__:upload_file:117 - File uploaded successfully: server/uploads\app-debug.apk
+2024-12-28 21:31:06.822 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2024-12-28 21:31:06.834 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2024-12-28 21:33:20.630 | INFO     | __main__:upload_file:117 - File uploaded successfully: server/uploads\Via.apk
+2024-12-28 21:33:21.082 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2024-12-28 21:33:21.091 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2024-12-28 21:36:38.878 | INFO     | __main__:upload_file:117 - File uploaded successfully: server/uploads\Via.apk
+2024-12-28 21:36:38.883 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2024-12-28 21:36:38.892 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2024-12-28 21:40:38.275 | INFO     | __main__:login:108 - User logged in successfully: 123456, Nickname: hei, Avatar: server/uploads/avatars/123456.jpg
+2024-12-28 21:40:45.671 | INFO     | __main__:upload_file:131 - File uploaded successfully: server/uploads\Via.apk
+2024-12-28 21:40:46.103 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2024-12-28 21:40:46.111 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2024-12-28 21:41:45.903 | INFO     | __main__:upload_file:131 - File uploaded successfully: server/uploads\Via.apk
+2024-12-28 21:41:46.342 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2024-12-28 21:41:46.351 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2024-12-28 21:43:30.223 | INFO     | __main__:upload_file:131 - File uploaded successfully: server/uploads\app-debug.apk
+2024-12-28 21:43:30.980 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2024-12-28 21:43:30.992 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2024-12-28 22:01:43.378 | INFO     | __main__:login:108 - User logged in successfully: 123456, Nickname: hei, Avatar: server/uploads/avatars/123456.jpg
+2024-12-28 22:01:49.461 | INFO     | __main__:upload_file:131 - File uploaded successfully: server/uploads\Via.apk
+2024-12-28 22:01:49.889 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2024-12-28 22:01:49.898 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2024-12-28 22:02:03.278 | INFO     | __main__:upload_file:131 - File uploaded successfully: server/uploads\Via.apk
+2024-12-28 22:02:03.283 | INFO     | androguard.core.apk:_apk_analysis:312 - Starting analysis on AndroidManifest.xml
+2024-12-28 22:02:03.287 | INFO     | androguard.core.apk:_apk_analysis:369 - APK file was successfully validated!
+2024-12-28 22:14:29.541 | INFO     | __main__:get_history:236 - History retrieved for user: 123456
+2024-12-28 22:14:57.182 | INFO     | __main__:upload_avatar:196 - Avatar uploaded for user: 123456, Saved at: server/uploads/avatars/123456.jpg

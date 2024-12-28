@@ -1,0 +1,14 @@
+{
+    "123456": {
+        "password": "123456",
+        "email": "2717373889@qq.com",
+        "nickname": "hei",
+        "avatar": "server\\uploads\\avatars\\123456.jpg"
+    },
+    "123456789": {
+        "password": "123456789",
+        "email": "2717373889@qq.com",
+        "nickname": "user123",
+        "avatar": null
+    }
+}

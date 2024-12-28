@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APK Analyzer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+        h1 {
+            color: #333;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="file"], input[type="text"] {
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%;
+            max-width: 300px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .response {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e8f5e9;
+            border: 1px solid #c8e6c9;
+            border-radius: 4px;
+            max-width: 500px;
+            word-wrap: break-word;
+        }
+        .error {
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+            color: #721c24;
+        }
+    </style>
+</head>
+<body>
+    <h1>APK Analyzer</h1>
+    <form id="uploadForm">
+        <input type="file" id="apkFile" accept=".apk" required />
+        <input type="text" id="username" placeholder="Enter username (optional)" />
+        <button type="submit">Upload and Analyze</button>
+    </form>
+    <div id="response" class="response" style="display:none;"></div>
+
+    <script>
+        document.getElementById('uploadForm').addEventListener('submit', async function(event) {
+            event.preventDefault(); // 阻止表单的默认提交行为
+
+            const fileInput = document.getElementById('apkFile');
+            const usernameInput = document.getElementById('username');
+            const file = fileInput.files[0];
+            const username = usernameInput.value.trim();
+
+            if (!file) {
+                alert("Please select an APK file to upload.");
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('file', file);
+            if (username) {
+                formData.append('username', username);
+            }
+
+            const responseDiv = document.getElementById('response');
+            responseDiv.style.display = 'none';
+
+            try {
+                const response = await fetch('/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const result = await response.json();
+
+                if (response.ok) {
+                    responseDiv.classList.remove('error');
+                    responseDiv.innerHTML = `<strong>Analysis Result:</strong><pre>${JSON.stringify(result, null, 2)}</pre>`;
+                } else {
+                    responseDiv.classList.add('error');
+                    responseDiv.innerHTML = `<strong>Error:</strong> ${result.error || 'Something went wrong'}`;
+                }
+
+            } catch (error) {
+                responseDiv.classList.add('error');
+                responseDiv.innerHTML = `<strong>Error:</strong> ${error.message}`;
+            }
+
+            responseDiv.style.display = 'block';
+        });
+    </script>
+</body>
+</html>
